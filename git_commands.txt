@@ -1,0 +1,79 @@
+GIT COMMANDS AND THEIR EXPLANATIONS
+
+1. git init
+Initializes a new Git repository in the current project folder.
+
+2. git config --global user.name "Akshaya"
+Sets the username used to identify commits.
+
+3. git config --global user.email "c.p.akshaya@gmail.com"
+Sets the email address associated with commits.
+
+4. git status
+Displays the current state of the working directory and staging area.
+
+5. git add index.html about.html
+Stages the HTML files so they can be included in a commit.
+
+6. git commit -m "Initial commit: Add HTML pages"
+Creates the first commit containing the initial project files.
+
+7. git add index.html
+Stages the modified index.html file.
+
+8. git commit -m "Update home page content"
+Records the changes made to the home page.
+
+9. git branch feature
+Creates a new branch named feature.
+
+10. git switch feature
+Switches the working branch to feature.
+
+11. git add about.html
+Stages the changes made to about.html.
+
+12. git commit -m "Add feature description to about page"
+Commits the feature branch changes.
+
+13. git switch main
+Switches back to the main branch.
+
+14. git merge feature
+Merges the changes from feature into main.
+
+15. git log --oneline --graph --all
+Displays the commit history in a compact graphical format, including branches.
+
+16. git add .gitignore
+Stages the .gitignore file.
+
+17. git commit -m "Add gitignore rules"
+Records the .gitignore configuration in the repository.
+
+18. git add index.html
+Stages the additional changes made to index.html.
+
+19. git commit -m "Add temporary paragraph"
+Creates an additional commit to demonstrate the undo operation.
+
+20. git revert HEAD
+Reverses the changes introduced by the latest commit while preserving Git history.
+
+21. git branch -M main
+Renames the current branch to main.
+
+22. git remote add origin https://github.com/akshaya-blip/GitAssignment.git
+Connects the local repository to the remote GitHub repository.
+
+23. git push -u origin main
+Pushes the local main branch and its commits to GitHub.
+
+24. git remote -v
+Displays the remote repository URLs configured for the local repository.
+
+25. git add git_commands.txt
+Stages the Git command documentation file.
+
+26. git commit -m "Add Git command documentation"
+Commits the command documentation file to the repository.
